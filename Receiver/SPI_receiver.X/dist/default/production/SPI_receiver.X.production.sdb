@@ -1,0 +1,113 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 C:\Users\aspire\MPLABXProjects\SPI_receiver.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"33
+[v _UART_TX_Init UART_TX_Init `(v  1 e 1 0 ]
+"46
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+"52
+[v _SPI_Slave_Init SPI_Slave_Init `(v  1 e 1 0 ]
+"81
+[v _ISR ISR `II(v  1 e 1 0 ]
+"808 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16F877A.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"1059
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2416
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2494
+[v _CKE CKE `VEb  1 e 0 @1190 ]
+"2497
+[v _CKP CKP `VEb  1 e 0 @164 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2617
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2620
+[v _PCFG1 PCFG1 `VEb  1 e 0 @1273 ]
+"2623
+[v _PCFG2 PCFG2 `VEb  1 e 0 @1274 ]
+"2626
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2809
+[v _SMP SMP `VEb  1 e 0 @1191 ]
+"2812
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2818
+[v _SSPEN SSPEN `VEb  1 e 0 @165 ]
+"2821
+[v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
+"2824
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2827
+[v _SSPM0 SSPM0 `VEb  1 e 0 @160 ]
+"2830
+[v _SSPM1 SSPM1 `VEb  1 e 0 @161 ]
+"2833
+[v _SSPM2 SSPM2 `VEb  1 e 0 @162 ]
+"2836
+[v _SSPM3 SSPM3 `VEb  1 e 0 @163 ]
+"2842
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2932
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1069 ]
+"2968
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2971
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2974
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"2977
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2980
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"3016
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"3031
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"21 C:\Users\aspire\MPLABXProjects\SPI_receiver.X\main.c
+[v _Data Data `uc  1 e 1 0 ]
+"23
+[v _main main `(v  1 e 1 0 ]
+{
+"31
+} 0
+"33
+[v _UART_TX_Init UART_TX_Init `(v  1 e 1 0 ]
+{
+"44
+} 0
+"52
+[v _SPI_Slave_Init SPI_Slave_Init `(v  1 e 1 0 ]
+{
+"79
+} 0
+"81
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"89
+} 0
+"46
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+{
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 0 ]
+"50
+} 0
